@@ -17,7 +17,7 @@
 # safe the file
 
 #base function 
-def convert_milk_yield(value):
+def lbs_to_kilogram_conversion(value):
     """
     Descrition: Function to convert milk yield kilogram to pound
     input: milk yield in kilogram
@@ -25,6 +25,14 @@ def convert_milk_yield(value):
     """
     return value * 2.20462
 
+
+def kilogram_lbs_conversion(value):
+    """
+    Descrition: Function to convert milk yield lbs to kilogram
+    input: milk yield in lbs
+    output: milk yield in kilogram
+    """
+    return value * 0.453592
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository. 
 # Make sure each step to push to your fork and not the original repo.
